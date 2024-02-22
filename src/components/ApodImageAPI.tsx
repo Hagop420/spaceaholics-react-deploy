@@ -58,7 +58,7 @@ export function ApodImageAPI() {
             className="rounded-none md:h-screen md:object-fill m-auto w-96 sm:w-auto imageAPOD"
             alt="APOD video."
           />
-        ) : apod?.hdurl === undefined ? (
+        ) : apod?.url === undefined ? (
           <img
             src={placeholderImage}
             className="rounded-none md:h-screen md:object-contain m-auto w-96"
@@ -66,7 +66,7 @@ export function ApodImageAPI() {
           />
         ) : (
           <img
-            src={apod?.hdurl}
+            src={apod?.url}
             className="rounded-none md:h-screen md:object-fill m-auto w-96 sm:w-auto imageAPOD"
             alt="APOD Img."
           />

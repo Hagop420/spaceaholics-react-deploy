@@ -43,7 +43,7 @@ function App() {
   // getting my LS planets info parsed
   function storedContents() {
       const getStored = localStorage.getItem('Planet_information')
-      setPlanetItems(JSON.parse(getStored))
+      setPlanetItems(JSON.parse(String(getStored)))
   }
 
   
@@ -64,7 +64,7 @@ function App() {
 
   useEffect(() => {
     const getStored = localStorage.getItem('Planet_information')
-    setPlanetItems(JSON.parse(getStored))
+    setPlanetItems(JSON.parse(String(getStored)))
   }, [])
   
   
