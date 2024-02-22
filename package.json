@@ -11,6 +11,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "jquery": "^3.7.1",
     "lightgallery": "^2.7.2",
     "react": "^18.2.0",
