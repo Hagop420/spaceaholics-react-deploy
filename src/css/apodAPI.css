@@ -1,0 +1,40 @@
+img {
+  padding: 0.6rem;
+}
+
+@media (min-width: 640px) {
+  img {
+    height: 400px;
+    object-fit: cover;
+  }
+}
+
+@media (min-width: 1024px) {
+  img {
+    height: 400px !important;
+    object-fit: cover;
+  }
+}
+
+/* Lightbox styles */
+@media (max-width: 500px) {
+  .lg-outer.lg-components-open:not(.lg-zoomed) .lg-sub-html {
+    margin: 20px !important;
+    /* min-width: 1000px; */
+  }
+  .para {
+    display: none !important;
+  }
+
+  .lg-outer.lg-components-open:not(.lg-zoomed) .lg-sub-html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 20px;
+  }
+}
+.lg-sub-html p {
+  display: none;
+}
