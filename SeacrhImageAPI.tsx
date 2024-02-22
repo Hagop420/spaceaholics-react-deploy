@@ -11,7 +11,7 @@ import lgHash from 'lightgallery/plugins/hash'
 import lgPager from 'lightgallery/plugins/pager'
 import lgRotate from 'lightgallery/plugins/rotate'
 import lgShare from 'lightgallery/plugins/share'
-import { usePlanet } from '../lib/usePlanet'
+import { usePlanet } from './usePlanet'
 import daisyui from 'daisyui'
 import { data } from 'jquery'
 

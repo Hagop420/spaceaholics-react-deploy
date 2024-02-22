@@ -20,6 +20,20 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": [
+    "src",
+    "usePlanet.tsx",
+    "SeacrhImageAPI.tsx",
+    "planetProvider.tsx",
+    "LightDarkComponent.tsx",
+    "HomePageWrap.tsx",
+    "NotFoundPage.tsx",
+    "Navbar.tsx",
+    "FavoritesPage.tsx",
+    "EditingPage.tsx",
+    "ApodImageAPI.tsx",
+    "App.tsx",
+    "main.tsx"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

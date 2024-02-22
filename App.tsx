@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react'
 import './App.css'
-import { HomePageWrap } from './components/HomePageWrap'
-import { FavoritePlanets } from './components/FavoritesPage'
-import { PlanetProvider , type Item, planetContextVal } from './components/planetProvider'
+import { HomePageWrap } from './HomePageWrap'
+import { FavoritePlanets } from './FavoritesPage'
+import { PlanetProvider , type Item, planetContextVal } from './planetProvider'
 import { Route, Routes } from 'react-router-dom'
-import { NotFoundPage } from './components/NotFoundPage'
-import { EditingPage } from './components/EditingPage'
+import { NotFoundPage } from './NotFoundPage'
+import { EditingPage } from './EditingPage'
 
 
 

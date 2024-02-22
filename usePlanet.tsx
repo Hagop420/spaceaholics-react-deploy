@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { planetContext } from '../components/planetProvider'
+import { planetContext } from './planetProvider'
 
 export function usePlanet() {
   const context = useContext(planetContext)
