@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
-import placeholderImage from '../images/placeholder-image.jpg'
-import No_Video from '../images/No_Video.png'
-import '../css/apodAPI.css'
+import placeholderImage from './placeholder-image.jpg'
+import No_Video from './No_Video.png'
+import './apodAPI.css'
 import { LightDarkMode } from './LightDarkComponent'
 
 // browser theme

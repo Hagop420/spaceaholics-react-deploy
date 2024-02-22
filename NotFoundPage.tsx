@@ -1,11 +1,11 @@
 import { useEffect, useRef } from 'react'
 import { Link } from 'react-router-dom'
 import { FaHome } from 'react-icons/fa'
-import solarPlanets from '../images/planets.gif'
+import solarPlanets from './planets.gif'
 import tippy from 'tippy.js'
 import 'tippy.js/dist/tippy.css'
 import 'tippy.js/themes/translucent.css'
-import '../css/NotFoundPage.css'
+import './NotFoundPage.css'
 
 export function NotFoundPage() {
   const homeIconRef = useRef(null)

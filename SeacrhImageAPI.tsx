@@ -1,7 +1,7 @@
 import { ChangeEvent, useEffect, useState } from 'react'
-import '../css/searchImageApi.css'
-import BH_IMAGE from '../images/black-hole-image.png'
-import SUN_IMAGE from '../images/sun.png'
+import './searchImageApi.css'
+import BH_IMAGE from './black-hole-image.png'
+import SUN_IMAGE from './sun.png'
 import { FaHotel, FaSearch, FaStar, FaTimes } from 'react-icons/fa'
 import { useNavigate, useParams } from 'react-router-dom'
 import { Item, planetContext } from './planetProvider'
@@ -12,8 +12,6 @@ import lgPager from 'lightgallery/plugins/pager'
 import lgRotate from 'lightgallery/plugins/rotate'
 import lgShare from 'lightgallery/plugins/share'
 import { usePlanet } from './usePlanet'
-import daisyui from 'daisyui'
-import { data } from 'jquery'
 
 export function SearchImageAPI() {
   // input state search for any nasa stuff
